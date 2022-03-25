@@ -1,7 +1,7 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
-  
+
 }
 
 body {
@@ -9,9 +9,29 @@ body {
 
 }
 
+.carrito{
+background-color: #2e2e2e;
+
+}
+
+.carrito ul{
+padding: 0;
+margin: 0;
+text-align: right;
+margin-right: 100px;
+color: #a9a5a2;
+
+}
+
+.carrito li{
+display: inline-block;
+list-style-type: none;
+
+}
 
 .logo{
 background-color: #454545;
+
 }
 .logo ul {
 padding: 0;
@@ -28,8 +48,15 @@ margin: 0;
 
 .menu{
 background-color: #f6f6f6;
+text-align: center;
+
 }
 .menu li{
   display: inline-block;
   list-style-type: none;
 }
+
+.foto-fondo{
+align-items: center;
+}
+.footer{}
