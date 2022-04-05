@@ -53,7 +53,6 @@ text-align: center;
 
 }
 .menu li{
-
 padding: 1em;
 display: inline-block;
 list-style-type: none;
@@ -67,6 +66,8 @@ width: 100%;
 
 .afooter{
 background-color: #454545;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 .afooter > ul{
@@ -78,10 +79,37 @@ padding-top: 50px;
 font-size: 25px;
 }
 
-.afooter p {
-padding-left: 200px;
+
+
+.porroland{
+  padding-left: 1px;
+  color: grey;
+  padding-bottom: 80px;
+  font-size: 16px;
+}
+
+.ccb{
+font-size: 12px;
+padding-top: 9px;
+text-align: left;
+}
+
+
+.wa1{
+font-size: 12px;
+padding-top: 10px;
+text-align: left;
+}
+
+.hora{
+text-align: left;
+
+}
+
+.finde{
+text-align: left;
 color: grey;
-padding-bottom: 80px;
+font-size: 16px;
 }
 
 .footer{
